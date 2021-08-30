@@ -7,7 +7,7 @@
     <title>php ajax dischi 2</title>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style2.css">
 </head>
 <body>
 
@@ -23,7 +23,7 @@
                     <div v-for="album in albums">
                         <div class="albums-inner-container">
                             <div class="sfondo-album">
-                                <img src=..php-ajax-dischi/poster alt="poster">
+                                <img :src=album.poster alt="poster">
                                 <div class="title">{{album.title}}</div>
                                 <div class="author">{{album.author}}</div> 
                                 <div class="year">{{album.year}}</div> 
