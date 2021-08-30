@@ -1,0 +1,64 @@
+
+
+.sfondo {
+    height: 90px;
+    background-color: rgb(46, 58, 70);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sfondo img {
+    width: 80px;
+    padding-left: 15px;
+}
+
+.sfondo2 {
+    background-color: rgb(30, 45, 59);
+    height: 100vh;
+}
+
+.albums-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.container-inner {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.albums-inner-container {
+    width: calc(100% / 5);
+    text-align: center;
+}
+
+.sfondo-album{
+    background-color: rgb(46, 58, 70);
+    width: 170px;
+    height: 298px;
+    margin: 8px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sfondo-album img {
+    width: 140px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.title {
+    width: 100px;
+    color: white;
+    font-size: 14px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.author, .year {
+    color: rgb(128, 128, 120);
+    font-size: 12px;
+}
