@@ -26,7 +26,7 @@
 .container-inner {
     display: flex;
     flex-wrap: wrap;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 
 .albums-inner-container {
@@ -37,7 +37,7 @@
 .sfondo-album{
     background-color: rgb(46, 58, 70);
     width: 170px;
-    height: 298px;
+    height: 300px;
     margin: 8px 0;
     display: flex;
     flex-direction: column;
@@ -47,14 +47,14 @@
 .sfondo-album img {
     width: 140px;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 4px;
 }
 
 .title {
     width: 100px;
     color: white;
-    font-size: 14px;
-    padding-bottom: 15px;
+    font-size: 12px;
+    padding-bottom: 2px;
     font-weight: bold;
 }
 

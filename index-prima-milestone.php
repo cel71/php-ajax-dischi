@@ -20,10 +20,11 @@
                     require_once __DIR__ . "/database/database.php";
 
                     foreach ($database as $albums) {
+                        $newTitle = strtoupper($albums['title']);
                         echo "<div class=albums-inner-container>
                                 <div class=sfondo-album>
                                     <img src={$albums['poster']}> <br/>
-                                    <div class=title>{$albums['title']}</div> <br/>
+                                    <div class=title>{$newTitle}</div> <br/>
                                     <div class=author>{$albums['author']}</div> <br/>
                                     <div class=year>{$albums['year']}</div> <br/>
                                 </div>                                

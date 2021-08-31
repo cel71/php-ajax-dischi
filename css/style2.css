@@ -47,13 +47,13 @@
 .sfondo-album img {
     width: 140px;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 }
 
 .title {
     width: 100px;
     color: white;
-    font-size: 14px;
+    font-size: 12px;
     padding-bottom: 15px;
     font-weight: bold;
 }
@@ -61,4 +61,5 @@
 .author, .year {
     color: rgb(128, 128, 120);
     font-size: 12px;
+    padding-bottom: 12px;
 }
